@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,500;0,600;0,700;1,600;1,700 &семья = Робото & display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background: #f1f1f1;
+	color: #0f141e;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+ a:hover{    /*Если навожу мышь */
+	text-decoration: underline;
+}
+
+a:active{    /*Если держу мышь */
+	color: blue;
+}
+
+a:visited{
+	color: rgb(137, 112, 160);
+}
+
+.container{
+	max-width: 750px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-family: inherit;
+}
+
+.avatar {
+max-width: 200px;
+border-radius: 10px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.106);
+}
+
+.info{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: flex-start;
+	
+}
+
+@media (max-width: 700px){
+	.info{
+		text-align: center;
+		display: block;
+	}
+}
+
+.info-text{
+	margin-left: 60px;
+}
+
+.info-text h2{
+	margin: 0;
+
+}
+
+.info-text p{
+	margin: 5px 0 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.card{
+	padding: 15px 20px;
+border: 1px solid #86898f;	
+box-sizing: border-box;
+margin-bottom: 20px; 
+border-radius: 5px;
+}
+
+.card h2{
+	text-align: center;
+	font-weight: normal;
+	color: #86898f;
+}
+
+.list{
+	margin: 0;
+	padding-left: 60px;
+	padding-bottom: 20px;
+}
+
+.list li{
+	margin-bottom: 5px;
+}
+
+.text{
+	font-size: 16px;
+	color: #86898f;
+	font-weight: normal;
+}
+
+.table{
+	width: 100%;
+	padding: 0 0 20px 60px;
+}
+
+.table td{
+	padding-bottom: 10px ;
+}
+
+.card img{
+	max-width: 100px;
+}
+
+table{
+	width: 100%;
+}
+
+thead th{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	color:#86898f;
+}
+
+tbody td{
+	
+	padding:10px 0 0 60px ;
+}
+
+.contact{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+}
+
+@media (max-width: 700px){
+	.contact{
+		flex-direction: column;
+		align-items: center;
+
+	}
+}
+
+.form-group img{
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
